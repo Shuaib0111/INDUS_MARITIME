@@ -1,0 +1,31 @@
+@import "tailwindcss";
+/* @tailwind base;
+@tailwind components; */
+@tailwind utilities;
+/* Slick Carousel styles */
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-dots li button:before {
+  color: #fff;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #fff;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  opacity: 0.8 !important;
+}
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination {
+  margin-top: 20px !important; /* Adjust the value as needed */
+  position: relative !important; /* Override default positioning */
+}
